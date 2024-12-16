@@ -40,8 +40,11 @@ Asegúrate de tener instalados los siguientes programas en tu máquina:
 - **MySQL**: Configurado y en ejecución.
 - **Node.js**: Si deseas trabajar con el frontend.
 - **Git**: Para clonar el repositorio.
+## 🔍 Arquitectura del Sistema
 
----
+El siguiente diagrama muestra cómo interactúan los componentes principales del sistema:
+
+![Arquitectura del Sistema](docs/architecture-diagram.png)
 
 ## ⚙️ Configuración del proyecto
 
