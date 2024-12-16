@@ -44,7 +44,7 @@ Asegúrate de tener instalados los siguientes programas en tu máquina:
 
 El siguiente diagrama muestra cómo interactúan los componentes principales del sistema:
 
-![Arquitectura del Sistema](docs/architecture-diagram.drawio.png) 
+![Arquitectura del Sistema](docs/architecture-diagram.drawio.png)
 
 ## ⚙️ Configuración del proyecto
 
