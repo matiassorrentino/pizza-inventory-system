@@ -1,0 +1,44 @@
+plugins {
+    id 'java'
+    id 'org.springframework.boot' version '3.2.0' // Última versión compatible
+    id 'io.spring.dependency-management' version '1.1.3'
+}
+
+group = 'com.pizza.inventory'
+version = '1.0.0'
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // Spring Boot Web para APIs REST
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    // Swagger OpenAPI
+    implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.2.0'
+
+    // Spring Data JPA para interactuar con la base de datos
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+
+    // Driver de MySQL
+    implementation 'mysql:mysql-connector-java:8.0.33'
+
+    // Lombok para reducir código repetitivo (opcional)
+    compileOnly 'org.projectlombok:lombok'
+    annotationProcessor 'org.projectlombok:lombok'
+
+    // Compatibilidad con ASM para Java 22 (si es necesario)
+    implementation 'org.ow2.asm:asm:9.6'
+
+    // Dependencias para pruebas
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}
