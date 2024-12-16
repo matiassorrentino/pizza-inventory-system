@@ -43,7 +43,11 @@ Asegúrate de tener instalados los siguientes programas en tu máquina:
 ## 🔍 Arquitectura del Sistema
 
 El siguiente diagrama muestra cómo interactúan los componentes principales del sistema:
+
 ![architecture-diagram drawio](https://github.com/user-attachments/assets/a456314e-22fd-460d-990a-8a16d7a723b0)
+
+
+
 
 
 ## ⚙️ Configuración del proyecto
