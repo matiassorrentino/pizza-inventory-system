@@ -46,6 +46,7 @@ El siguiente diagrama muestra cómo interactúan los componentes principales del
 
 ![Arquitectura del Sistema](docs/architecture-diagram.drawio.png)
 
+
 ## ⚙️ Configuración del proyecto
 
 Sigue estos pasos para configurar y ejecutar el proyecto en tu entorno local.
